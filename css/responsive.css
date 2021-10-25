@@ -1,0 +1,141 @@
+@media (max-width:  1800px)
+{
+	.image{
+		margin-left: 5%;
+	}
+
+	#abilities ul li .button-abili{
+		margin: 0px 25px;
+	}
+
+	.box svg{
+		left: 24%;
+	}
+}
+
+@media (max-width:  1500px)
+{
+	.image{
+		width: 500px;
+		height: 500px;
+		margin-left: 0%;
+	}
+
+		.box svg{
+		left: 20%;
+	}
+}
+
+@media (max-width: 1300px)
+{
+	header{
+		top: 0;
+		left: 0;
+		display: block;
+		height: 10vh;
+	}
+
+	.sticky
+	{
+		box-shadow: none;
+	}
+
+	header ul{
+		background-color:#171717;
+		right: -110%;
+		display: block;
+		height: 100vh;
+		width: 30%;
+		text-align: center;
+		top: -120%;
+		justify-content: normal;
+		transition: all 0.2s ease;
+		padding: 180px 0px;
+		opacity: 100;
+
+	}
+
+	header ul li{
+		margin:40px 0 ;
+	}
+
+	header ul li a{
+		font-size: 30px;
+	}
+
+	header ul li a:hover{
+		font-size: 32px;
+	}
+
+	.menu-btn {
+		display: block;
+	}
+
+	#click:checked ~ header ul{
+	right: -72%;
+	transition: all 0.5s ease;
+	}
+
+	.image{
+		width: 450px;
+		height: 450px;
+		transform: translate(0px, 50%);
+	}
+
+	.box svg{
+		left: 15%;
+	}
+}
+
+@media (max-width:  1070px)
+{
+	header{
+		top: 0;
+		left: 0;
+		display: block;
+		height: 10vh;
+	}
+	.image{
+		width: 350px;
+		height: 350px;
+		transform: translate(0px, 60%);
+	}
+
+	#about .text-me{
+		margin-right: 0%;
+		transform: translate(8%, 30%);
+	}
+
+	#about .text-me h1{
+		font-size: 30px;
+	}
+
+	#about .text-me p{
+		width: 310px;
+		font-size: 18px;
+	}
+
+	#abilities ul li .button-abili{
+		margin: 0px 15px;
+		font-size: 20px;
+	}
+
+	#abilities ul li .button-abili:hover{
+	margin: 0px 15px;
+	font-size: 20px;
+	}
+
+	.box svg{
+		left: 5%;
+	}
+
+	.box{
+		height: 70vh;
+	}
+
+		#abilities h2
+	{
+			width: 100%;
+	}
+
+}

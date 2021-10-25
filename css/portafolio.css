@@ -1,0 +1,587 @@
+#portf{
+	display: block;
+	max-width: 100%;
+	height: 100vh;
+	padding: 20px 50px;
+	margin-bottom: 8%;
+	background: none;
+
+}
+
+#portf h1{
+	font-family: OLDTYPE;
+	color: #FF0078;
+	font-size: 42px;
+	background: none;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	transform: translate(0, 250%);
+	z-index: 48;
+	user-select: none;
+}
+
+#portf ul{
+	display: flex;
+	position: relative;
+	list-style: none;
+	background: none;
+	justify-content: center;
+	align-items: center;
+	transform: translate(0, 600%);
+	z-index: 48;
+	user-select: none;
+}
+
+#portf ul li{
+	position: relative;
+	list-style: none;
+	background: none;
+}
+
+#portf ul li .button-porta{
+	position: relative;
+	margin: 0 50px;
+	text-decoration: none;
+	color:  #939393;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.2s;
+	background: none;
+	font-family: NeonSans;
+	font-size: 25px;
+	border: none;
+	cursor: pointer;
+}
+
+#portf ul li .button-porta:hover{
+	color:  #FF0078;
+	text-shadow: 0 0 10px #FF0078,
+	0 0 20px #FF0078;
+}
+
+#portf ul li .button-porta:active{
+	color:  #00FFA8;
+	text-shadow: 0 0 10px #00FFA8,
+	0 0 20px #00FFA8;
+	transition: 0.05s;
+}
+
+#portf ul li .button-active{
+	color:  #00FFA8;
+	text-shadow: 0 0 10px #00FFA8,
+	0 0 20px #00FFA8;
+}
+
+#portf #grid
+{
+	width: 100%;
+	height: 150vh;
+	padding: 5px;
+	transform: translate(0px, 18%);
+	justify-content: center;
+	align-items: center;
+	background: none;
+	user-select: none;
+}
+
+.boxp{
+	width: 30%;
+	height: 35vh;
+	margin: 10px 20px;
+	background: none;
+	border: solid 2px #00FFA8;
+	cursor: pointer;
+	transition: 1s;
+	animation: borderanim 5s infinite;
+}
+
+#one{
+	background: url(image/Tuff.PNG);
+	background-size: 100%;
+	background-position: center;
+}
+
+#one:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#one:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#two{
+	background: url(image/DbGoku.png);
+	background-size: 100%;
+	background-position: center;
+}
+
+#two:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton1 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#two:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#three{
+	background: url(image/Sheika.png);
+	background-size: 100%;
+	background-position: center;
+}
+
+#three:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton2 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#three:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#four{
+	background: url(image/title.png);
+	background-size: 100%;
+	background-position: center;
+}
+
+#four:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton3 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#four:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#five{
+	background: url(image/Toby.png);
+	background-size: 100%;
+	background-position: center;
+}
+
+#five:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton4 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#five:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#six{
+	background: url(image/Elena.PNG);
+	background-size: 100%;
+	background-position: center;
+}
+
+#six:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton5 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#six:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#seven{
+	background: url(image/JuegoCar.png);
+	background-size: 100%;
+	background-position: center;
+}
+
+#seven:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton6 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#seven:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#eight{
+	background: url(image/Silueta.png);
+	background-size: 106%;
+	background-position: center;
+}
+
+#eight:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton7 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#eight:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#nine{
+	background: url(image/Jerry.png);
+	background-size: 110%;
+	background-position: center;
+}
+
+#nine:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton8 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#nine:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#ten{
+	background: url(image/Juicio.png);
+	background-size: 100%;
+}
+
+#ten:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton9 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#ten:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#eleven{
+	background: url(image/ZombieLand.png);
+	background-size: 100%;
+}
+
+#eleven:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton10 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#eleven:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+#twelve{
+	background: url(image/batspidy.png);
+	background-size: 100%;
+}
+
+#twelve:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton11 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#twelve:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
+@keyframes whitebutton
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Tuff.PNG);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton1
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/DbGoku.png);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton2
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Sheika.png);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton3
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/title.png);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton4
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Toby.png);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton5
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Elena.PNG);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton6
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/JuegoCar.png);
+		background-size: 106%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton7
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Silueta.png);
+		background-size: 100%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton8
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Jerry.png);
+		background-size: 110%;
+		background-position: center;
+	}
+}
+
+@keyframes whitebutton9
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Juicio.png);
+		background-size: 100%;
+	}
+}
+
+@keyframes whitebutton10
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/ZombieLand.png);
+		background-size: 100%;
+	}
+}
+
+@keyframes whitebutton11
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/batspidy.png);
+		background-size: 100%;
+	}
+}
+
+
+
+@keyframes borderanim
+{
+	0%
+	{
+		border: solid 2px #FF0078;
+		box-shadow: 0 0 10px #FF0078;
+	}
+	50%
+	{
+		border: solid 2px #00FFA8;
+		box-shadow: 0 0 10px #00FFA8;
+	}
+	100%
+	{
+		border: solid 2px #FF0078;
+		box-shadow: 0 0 10px #FF0078;
+	}
+}
+
+@keyframes portfolio-light
+{
+	0%
+	{
+		box-shadow: 0 0 10px #00FFA8,0 0 20px #00FFA8,0 0 40px #00FFA8;
+	}
+
+	25%
+	{
+		box-shadow:none;
+	}
+
+	50%
+	{
+		box-shadow: 0 0 10px #FF0078,0 0 20px #FF0078,0 0 40px #FF0078;
+	}
+
+	75%
+	{
+		box-shadow:none;
+	}
+
+	100%
+	{
+		box-shadow: 0 0 10px #00FFA8,0 0 20px #00FFA8,0 0 40px #00FFA8;
+	}
+
+}
+
+@media (max-width: 1800px)
+{
+	#portf ul{
+			transform: translate(0, 300%);
+	}
+}
+
+@media (max-width: 1400px)
+{
+	#portf ul{
+		transform: translate(0, 700%);
+	}
+
+	#portf ul li .button-porta{
+			font-size: 20px;
+			margin: 0 25px;
+	}
+}
+
+@media (max-width: 1272px)
+{
+	#portf ul{
+			transform: translate(0, 400%);
+	}
+}
