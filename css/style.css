@@ -17,7 +17,7 @@
 }
 
 body{
-	overflow-y: scroll;
+	overflow-y: hidden;
 	overflow-x: hidden;
 	animation: scrollon 3.5s ease forwards 4s;
 	background-color: #0F0F0F;
