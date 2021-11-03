@@ -359,11 +359,26 @@
 	box-shadow: 0 0 20px #00FFA8;
 }
 
-#Contenido-Portfalio
+#background-close
 {
 	z-index: 50;
 	display: flex;
 	background-color: rgba(255, 255, 255, 0.2);
+	align-content: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	transition: all 0.5s ease-out;
+}
+
+
+#Contenido-Portfalio
+{
+	z-index: 50;
+	display: flex;
 	align-content: center;
 	justify-content: center;
 	position: fixed;
@@ -545,8 +560,9 @@
 
 
 .descrip{
-	margin: 0px, 10px;
-	transform: translate(0, 40%);
+	margin: 50px, 10px;
+	transform: translate(0, 100%);
+	height: 250px;
 }
 
 .descrip h1{
@@ -610,6 +626,7 @@
 
 .popup-hidden{
 	opacity: 0;
+	pointer-events: none;
 }
 
 .content-show{

@@ -43,6 +43,7 @@ const close8 = document.getElementById("close8");
 const close9 = document.getElementById("close9");
 const close10 = document.getElementById("close10");
 const close11 = document.getElementById("close11");
+const background = document.getElementById("background-close");
 
 general.addEventListener('click', () =>{
 
@@ -270,6 +271,8 @@ one.addEventListener('click', () =>{
 
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	tuff.classList.add("content-show");
 	tuff.classList.remove("content-hidden");
 });
@@ -286,6 +289,8 @@ three.addEventListener('click', () =>{
 
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	sheikah.classList.add("content-show");
 	sheikah.classList.remove("content-hidden");
 });
@@ -293,6 +298,8 @@ three.addEventListener('click', () =>{
 four.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	ulari.classList.add("content-show");
 	ulari.classList.remove("content-hidden");
 });
@@ -300,6 +307,8 @@ four.addEventListener('click', () =>{
 five.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	toby.classList.add("content-show");
 	toby.classList.remove("content-hidden");
 });
@@ -307,6 +316,8 @@ five.addEventListener('click', () =>{
 six.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	elena.classList.add("content-show");
 	elena.classList.remove("content-hidden");
 });
@@ -314,6 +325,8 @@ six.addEventListener('click', () =>{
 seven.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	drive.classList.add("content-show");
 	drive.classList.remove("content-hidden");
 });
@@ -321,6 +334,8 @@ seven.addEventListener('click', () =>{
 eight.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	silh.classList.add("content-show");
 	silh.classList.remove("content-hidden");
 });
@@ -328,6 +343,8 @@ eight.addEventListener('click', () =>{
 nine.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	jerry.classList.add("content-show");
 	jerry.classList.remove("content-hidden");
 });
@@ -335,6 +352,8 @@ nine.addEventListener('click', () =>{
 ten.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	juivag.classList.add("content-show");
 	juivag.classList.remove("content-hidden");
 });
@@ -342,6 +361,8 @@ ten.addEventListener('click', () =>{
 eleven.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	zombie.classList.add("content-show");
 	zombie.classList.remove("content-hidden");
 });
@@ -349,6 +370,8 @@ eleven.addEventListener('click', () =>{
 twelve.addEventListener('click', () =>{
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	spiderbat.classList.add("content-show");
 	spiderbat.classList.remove("content-hidden");
 });
@@ -356,6 +379,8 @@ twelve.addEventListener('click', () =>{
 close.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -385,6 +410,8 @@ close.addEventListener('click', () =>{
 close1.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -415,6 +442,8 @@ close1.addEventListener('click', () =>{
 close2.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -445,6 +474,8 @@ close2.addEventListener('click', () =>{
 close3.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -475,6 +506,8 @@ close3.addEventListener('click', () =>{
 close4.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -504,6 +537,8 @@ close4.addEventListener('click', () =>{
 close5.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -533,6 +568,8 @@ close5.addEventListener('click', () =>{
 close6.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -562,6 +599,8 @@ close6.addEventListener('click', () =>{
 close7.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -591,6 +630,8 @@ close7.addEventListener('click', () =>{
 close8.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -620,6 +661,8 @@ close8.addEventListener('click', () =>{
 close9.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -649,6 +692,8 @@ close9.addEventListener('click', () =>{
 close10.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
@@ -678,6 +723,39 @@ close10.addEventListener('click', () =>{
 close11.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
+	tuff.classList.remove("content-show");
+	tuff.classList.add("content-hidden");
+	goku.classList.remove("content-show");
+	goku.classList.add("content-hidden");
+	sheikah.classList.remove("content-show");
+	sheikah.classList.add("content-hidden");
+	ulari.classList.remove("content-show");
+	ulari.classList.add("content-hidden");
+	toby.classList.remove("content-show");
+	toby.classList.add("content-hidden");
+	elena.classList.remove("content-show");
+	elena.classList.add("content-hidden");
+	drive.classList.remove("content-show");
+	drive.classList.add("content-hidden");
+	silh.classList.remove("content-show");
+	silh.classList.add("content-hidden");
+	jerry.classList.remove("content-show");
+	jerry.classList.add("content-hidden");
+	juivag.classList.remove("content-show");
+	juivag.classList.add("content-hidden");
+	zombie.classList.remove("content-show");
+	zombie.classList.add("content-hidden");
+	spiderbat.classList.remove("content-show");
+	spiderbat.classList.add("content-hidden");
+});
+
+background.addEventListener('click', () => {
+	content.classList.add('popup-hidden');
+	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
 	tuff.classList.remove("content-show");
 	tuff.classList.add("content-hidden");
 	goku.classList.remove("content-show");
