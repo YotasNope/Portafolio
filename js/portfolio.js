@@ -281,6 +281,8 @@ two.addEventListener('click', () =>{
 
 	content.classList.remove('popup-hidden');
 	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
 	goku.classList.add("content-show");
 	goku.classList.remove("content-hidden");
 });
