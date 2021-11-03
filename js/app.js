@@ -84,4 +84,13 @@ window.addEventListener("scroll", function(){
 		porta.classList.remove("button-active");
 	}
 
+	if (window.scrollY > 4500)
+	{
+		conta.classList.add("button-active");
+	}
+	else
+	{
+		conta.classList.remove("button-active");
+	}
+
 })
