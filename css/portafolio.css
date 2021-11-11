@@ -359,6 +359,27 @@
 	box-shadow: 0 0 20px #00FFA8;
 }
 
+
+
+#thirteen{
+	background: url(image/Dave.png);
+	background-size: 100%;
+}
+
+#thirteen:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton12 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#thirteen:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
 #background-close
 {
 	z-index: 50;
@@ -545,6 +566,20 @@
 }
 
 #SpiderBat{
+	background: #000;
+	width: 75%;
+	height: 75vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transform: translate(0,10%);
+	padding: 10px 50px;
+	border-radius: 50px;
+	animation: borderanim 5s infinite;
+	position: absolute;
+}
+
+#Dave{
 	background: #000;
 	width: 75%;
 	height: 75vh;
@@ -838,6 +873,20 @@
 	100%
 	{
 		background: url(image/batspidy.png);
+		background-size: 100%;
+	}
+}
+
+@keyframes whitebutton12
+{
+	0%
+	{
+		background: #FF0078;
+	}
+
+	100%
+	{
+		background: url(image/Dave.png);
 		background-size: 100%;
 	}
 }

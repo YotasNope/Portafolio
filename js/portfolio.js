@@ -18,6 +18,7 @@ const nine = document.getElementById("nine");
 const ten = document.getElementById("ten");
 const eleven = document.getElementById("eleven");
 const twelve = document.getElementById("twelve");
+const thirteen = document.getElementById("thirteen");
 
 const tuff = document.getElementById("Tuff");
 const goku = document.getElementById("goku");
@@ -31,6 +32,7 @@ const jerry = document.getElementById("Jerry");
 const juivag = document.getElementById("JuiVag");
 const zombie = document.getElementById("ZombieLand");
 const spiderbat = document.getElementById("SpiderBat");
+const dave = document.getElementById("Dave");
 const close = document.getElementById("close");
 const close1 = document.getElementById("close1");
 const close2 = document.getElementById("close2");
@@ -43,6 +45,7 @@ const close8 = document.getElementById("close8");
 const close9 = document.getElementById("close9");
 const close10 = document.getElementById("close10");
 const close11 = document.getElementById("close11");
+const close12 = document.getElementById("close12");
 const background = document.getElementById("background-close");
 
 general.addEventListener('click', () =>{
@@ -58,7 +61,8 @@ general.addEventListener('click', () =>{
 	nine.classList.add('boxp-show');
 	ten.classList.add('boxp-show');
 	eleven.classList.add('boxp-show');
-	twelve.classList.add('boxp-show');
+	twelve.classList.remove('boxp-show');
+	thirteen.classList.add('boxp-show');
 
 	one.classList.remove('boxp-hidden');
 	two.classList.remove('boxp-hidden');
@@ -71,7 +75,8 @@ general.addEventListener('click', () =>{
 	nine.classList.remove('boxp-hidden');
 	ten.classList.remove('boxp-hidden');
 	eleven.classList.remove('boxp-hidden');
-	twelve.classList.remove('boxp-hidden');
+	twelve.classList.add('boxp-hidden');
+	thirteen.classList.remove('boxp-hidden');
 
 	general.classList.add('button-active');
 	models.classList.remove('button-active');
@@ -96,6 +101,7 @@ models.addEventListener('click', () =>{
 	ten.classList.remove('boxp-show');
 	eleven.classList.remove('boxp-show');
 	twelve.classList.add('boxp-show');
+	thirteen.classList.add('boxp-show');
 
 	one.classList.remove('boxp-hidden');
 	two.classList.add('boxp-hidden');
@@ -109,6 +115,7 @@ models.addEventListener('click', () =>{
 	ten.classList.add('boxp-hidden');
 	eleven.classList.add('boxp-hidden');
 	twelve.classList.remove('boxp-hidden');
+	thirteen.classList.remove('boxp-hidden');
 
 	general.classList.remove('button-active');
 	models.classList.add('button-active');
@@ -133,6 +140,7 @@ animations.addEventListener('click', () =>{
 	ten.classList.remove('boxp-show');
 	eleven.classList.remove('boxp-show');
 	twelve.classList.remove('boxp-show');
+	thirteen.classList.add('boxp-show');
 
 	one.classList.add('boxp-hidden');
 	two.classList.remove('boxp-hidden');
@@ -146,6 +154,7 @@ animations.addEventListener('click', () =>{
 	ten.classList.add('boxp-hidden');
 	eleven.classList.add('boxp-hidden');
 	twelve.classList.add('boxp-hidden');
+	thirteen.classList.remove('boxp-hidden');
 
 	general.classList.remove('button-active');
 	models.classList.remove('button-active');
@@ -170,6 +179,7 @@ design.addEventListener('click', () =>{
 	ten.classList.add('boxp-show');
 	eleven.classList.add('boxp-show');
 	twelve.classList.remove('boxp-show');
+	thirteen.classList.remove('boxp-show');
 
 	one.classList.add('boxp-hidden');
 	two.classList.add('boxp-hidden');
@@ -183,6 +193,7 @@ design.addEventListener('click', () =>{
 	ten.classList.remove('boxp-hidden');
 	eleven.classList.remove('boxp-hidden');
 	twelve.classList.add('boxp-hidden');
+	thirteen.classList.add('boxp-hidden');
 
 	general.classList.remove('button-active');
 	models.classList.remove('button-active');
@@ -207,6 +218,7 @@ games.addEventListener('click', () =>{
 	ten.classList.remove('boxp-show');
 	eleven.classList.add('boxp-show');
 	twelve.classList.remove('boxp-show');
+	thirteen.classList.remove('boxp-show');
 
 	one.classList.add('boxp-hidden');
 	two.classList.add('boxp-hidden');
@@ -220,6 +232,7 @@ games.addEventListener('click', () =>{
 	ten.classList.add('boxp-hidden');
 	eleven.classList.remove('boxp-hidden');
 	twelve.classList.add('boxp-hidden');
+	thirteen.classList.add('boxp-hidden');
 
 	general.classList.remove('button-active');
 	models.classList.remove('button-active');
@@ -244,6 +257,7 @@ photo.addEventListener('click', () =>{
 	ten.classList.add('boxp-show');
 	eleven.classList.remove('boxp-show');
 	twelve.classList.remove('boxp-show');
+	thirteen.classList.remove('boxp-show');
 
 	one.classList.add('boxp-hidden');
 	two.classList.add('boxp-hidden');
@@ -257,6 +271,7 @@ photo.addEventListener('click', () =>{
 	ten.classList.remove('boxp-hidden');
 	eleven.classList.add('boxp-hidden');
 	twelve.classList.add('boxp-hidden');
+	thirteen.classList.add('boxp-hidden');
 
 	general.classList.remove('button-active');
 	models.classList.remove('button-active');
@@ -378,6 +393,15 @@ twelve.addEventListener('click', () =>{
 	spiderbat.classList.remove("content-hidden");
 });
 
+thirteen.addEventListener('click', () =>{
+	content.classList.remove('popup-hidden');
+	content.classList.add('popup-show');
+	background.classList.remove('popup-hidden');
+	background.classList.add('popup-show');
+	dave.classList.add("content-show");
+	dave.classList.remove("content-hidden");
+});
+
 close.addEventListener('click', () =>{
 	content.classList.add('popup-hidden');
 	content.classList.remove('popup-show');
@@ -407,6 +431,8 @@ close.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close1.addEventListener('click', () =>{
@@ -438,6 +464,8 @@ close1.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 
@@ -470,6 +498,8 @@ close2.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 
@@ -502,6 +532,8 @@ close3.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 
@@ -534,6 +566,8 @@ close4.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close5.addEventListener('click', () =>{
@@ -565,6 +599,8 @@ close5.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close6.addEventListener('click', () =>{
@@ -596,6 +632,8 @@ close6.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close7.addEventListener('click', () =>{
@@ -627,6 +665,8 @@ close7.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close8.addEventListener('click', () =>{
@@ -658,6 +698,8 @@ close8.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close9.addEventListener('click', () =>{
@@ -689,6 +731,8 @@ close9.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close10.addEventListener('click', () =>{
@@ -720,6 +764,8 @@ close10.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 close11.addEventListener('click', () =>{
@@ -751,6 +797,41 @@ close11.addEventListener('click', () =>{
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
+});
+
+close12.addEventListener('click', () =>{
+	content.classList.add('popup-hidden');
+	content.classList.remove('popup-show');
+	background.classList.add('popup-hidden');
+	background.classList.remove('popup-show');
+	tuff.classList.remove("content-show");
+	tuff.classList.add("content-hidden");
+	goku.classList.remove("content-show");
+	goku.classList.add("content-hidden");
+	sheikah.classList.remove("content-show");
+	sheikah.classList.add("content-hidden");
+	ulari.classList.remove("content-show");
+	ulari.classList.add("content-hidden");
+	toby.classList.remove("content-show");
+	toby.classList.add("content-hidden");
+	elena.classList.remove("content-show");
+	elena.classList.add("content-hidden");
+	drive.classList.remove("content-show");
+	drive.classList.add("content-hidden");
+	silh.classList.remove("content-show");
+	silh.classList.add("content-hidden");
+	jerry.classList.remove("content-show");
+	jerry.classList.add("content-hidden");
+	juivag.classList.remove("content-show");
+	juivag.classList.add("content-hidden");
+	zombie.classList.remove("content-show");
+	zombie.classList.add("content-hidden");
+	spiderbat.classList.remove("content-show");
+	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
 
 background.addEventListener('click', () => {
@@ -782,4 +863,6 @@ background.addEventListener('click', () => {
 	zombie.classList.add("content-hidden");
 	spiderbat.classList.remove("content-show");
 	spiderbat.classList.add("content-hidden");
+	dave.classList.remove("content-show");
+	dave.classList.add("content-hidden");
 });
