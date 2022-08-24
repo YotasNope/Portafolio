@@ -949,4 +949,6 @@ background.addEventListener('click', () => {
 	spiderbat.classList.add("content-hidden");
 	dave.classList.remove("content-show");
 	dave.classList.add("content-hidden");
+	Dot.classList.remove("content-show");
+	Dot.classList.add("content-hidden");
 });
