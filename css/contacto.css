@@ -14,7 +14,7 @@
 .redes{
 	display: flex;
 	margin: 0px, 0px;
-	width: 50%;
+	width: 45%;
 	justify-content: center;
 	align-items: center;
 
@@ -128,9 +128,62 @@
 	transition: 0.1s;
 }
 
+
+.redes .linked{
+	background: url(image/linkedIcon.png);
+	background-size: 100%;
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+	margin-right: 15px;
+	border-radius: 50px;
+	transition: 0.3s;
+}
+
+.redes .linked:hover{
+	background: url(image/linkedIconhover.png);
+	background-size: 100%;
+	width: 75px;
+	height: 75px;
+}
+
+.redes .linked:active{
+	background: url(image/linkedIconactive.png);
+	background-size: 100%;
+	width: 75px;
+	height: 75px;
+	transition: 0.1s;
+}
+
+.redes .art{
+	background: url(image/artIcon.png);
+	background-size: 100%;
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+	margin-right: 15px;
+	border-radius: 50px;
+	transition: 0.3s;
+}
+
+.redes .art:hover{
+	background: url(image/artIconhover.png);
+	background-size: 100%;
+	width: 75px;
+	height: 75px;
+}
+
+.redes .art:active{
+	background: url(image/artIconactive.png);
+	background-size: 100%;
+	width: 75px;
+	height: 75px;
+	transition: 0.1s;
+}
+
 .email{
-	margin-left:  30px;
-	width: 50%;
+	margin-left:  0px;
+	width: 60%;
 	height: 200px;
 	transform: translateY(20%);
 }

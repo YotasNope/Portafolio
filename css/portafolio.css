@@ -400,6 +400,25 @@
 	box-shadow: 0 0 20px #00FFA8;
 }
 
+#fiveteen{
+	background: url(image/Gate.png);
+	background-size: 115%;
+}
+
+#fiveteen:hover{
+	border: solid 4px #FF0078;
+	transform: 2s;
+	border-radius: 20px;
+	animation: whitebutton12 0.5s;
+	box-shadow: 0 0 10px #FF0078;
+}
+
+#fiveteen:active{
+	border: solid 4.5px #00FFA8;
+	transition: 0.05s;
+	box-shadow: 0 0 20px #00FFA8;
+}
+
 
 #background-close
 {
@@ -615,6 +634,20 @@
 }
 
 #DOT{
+	background: #000;
+	width: 75%;
+	height: 75vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	transform: translate(0,10%);
+	padding: 10px 50px;
+	border-radius: 50px;
+	animation: borderanim 5s infinite;
+	position: absolute;
+}
+
+#ED{
 	background: #000;
 	width: 75%;
 	height: 75vh;
