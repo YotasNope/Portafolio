@@ -319,7 +319,7 @@ header ul li a:active{
 	content: '';
 	position: absolute;
 	inset: 5px;
-	background: url(image/me.jpeg);
+	background: url(image/me.jpg);
 	background-size: 100%;
 	border-radius: 16px;
 }
